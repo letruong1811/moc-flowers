@@ -11,3 +11,231 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* Group */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap');
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.font-mulish {
+  font-family: 'Mulish', sans-serif;
+}
+
+h1,
+h2 {
+  font-family: 'Mulish', sans-serif;
+  font-weight: bold;
+  line-height: 60px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3,
+.font-title,
+.font-subtitile,
+.font-subtitile2 {
+  font-family: 'Mulish', sans-serif;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.font-title {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.font-subtitile {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.font-subtitile2,
+.font-caption1 {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+body,
+.font-caption1,
+.font-caption2 {
+  font-family: 'Mulish', sans-serif;
+  font-weight: normal;
+}
+
+body {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.font-caption2 {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.icons-header {
+  width: 10px;
+  height: 20px;
+  margin: 2px 7px;
+}
+
+.icons-footer {
+  width: 32px;
+  height: 32px;
+  border: solid 0.5px;
+  border-color: #d3d7de;
+  border-radius: 50%;
+}
+
+.icons-header1 {
+  width: 20px;
+  height: 20px;
+  margin: 2px;
+}
+
+.name-header,
+.search-size {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+body,
+.name-header,
+.search-size {
+  font-weight: 400px;
+  font-family: 'Mulish', sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-shop {
+  font-weight: 700px;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: 'Mulish', sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-user {
+  width: 16px;
+  height: 16px;
+  margin: 4px;
+}
+
+.icon-home {
+  width: 70.15px;
+  height: 64px;
+}
+
+.icon-name {
+  width: 288.67px;
+  height: 55.13px;
+  padding-left: 9.5px;
+}
+
+.icon-shopping {
+  width: 18px;
+  height: 21px;
+  margin: 3px 1.5px;
+}
+
+.navbar-item {
+  margin: 1px 1px 2px;
+  padding-left: 48px;
+  border-image-slice: 1;
+  text-align: center;
+  display: inline-block;
+  color: #172b4d;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar-discount {
+  margin: 1px 1px 2px;
+  padding-left: 48px;
+  border-image-slice: 1;
+  text-align: center;
+  display: inline-block;
+  font-weight: bolder;
+  color: #172b4d;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar-home {
+  margin: 1px 1px 2px;
+  border-image-slice: 1;
+  text-align: center;
+  display: inline-block;
+  color: #172b4d;
+  text-decoration: none;
+  text-align: center;
+}
+
+.icon-search {
+  margin: 2px;
+  width: 20px;
+  height: 20px;
+}
+
+.text-help {
+  padding-top: 16px;
+}
+
+.icon-size-arrow {
+  width: 20px;
+  height: 20px;
+  margin: 2px;
+}
+
+.icon-nav-slide-1 {
+  width: 16px;
+  height: 16px;
+  margin: 0px;
+}
+
+.icon-nav-slide-2 {
+  width: 8px;
+  height: 8px;
+  margin: 0px;
+}
+
+.grid-container-product {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+  padding: 32px 0px;
+}
+
+.table-footer td {
+  padding: 0px 20px 20px 0px;
+}
+
+.none-bullets {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.none-bullets li {
+  padding-bottom: 2px;
+  margin-bottom: 20px;
+}
